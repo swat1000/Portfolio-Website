@@ -63,14 +63,27 @@ nav ul li a:hover{
 .btn:hover{
 	transform: scale(1.2);
 }
+
 .content{
 	position: absolute;
-	top: 50%;
-	left:8%;
-	transform: translateY(-50%);
+	top: 40%;
+	left: 5%;
+}
+
+.content>h4 {
+     color: #000;
+}
+
+.content>h1 {
+	color: #000;
+}
+.content1{
+	position: absolute;
+	top: 72%;
+	left: 2%;
 }
 h1{
-	color: black;
+	color: white;
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
@@ -80,7 +93,7 @@ h3{
 	margin-bottom: 50px;
 }
 h4{
-	color: #0a020acc;
+	color: white;
 	letter-spacing: 2px;
 	font-size: 20px;
 }
@@ -227,7 +240,7 @@ button:hover{
 	width: 380px;
 }
 
-.block .content{
+.block .content2{
 	position: relative;
 	width: 50%;
 	left: 30%;
@@ -237,14 +250,14 @@ button:hover{
 	visibility: hidden;
 }
 
-.block:hover .content{
+.block:hover .content2{
 	left: 0;
 	opacity: 1;
 	visibility: visible;
 
 }
 
-.block .content h2{
+.block .content2 h2{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -252,7 +265,7 @@ button:hover{
 	margin-bottom: 5px;
 }
 
-.block .content h3{
+.block .content2 h3{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 80px;
@@ -260,13 +273,13 @@ button:hover{
 	font-weight: 900;
 }
 
-.block .content p{
+.block .content2 p{
     color: #fff;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.block .content a{
+.block .content2 a{
 	position:relative;
 	color:#fff;
 	padding: 10px 20px;
