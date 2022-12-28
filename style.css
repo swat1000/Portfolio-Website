@@ -97,6 +97,13 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
+
+.homeimg{
+	position: absolute;
+    left: 55%;
+	top: 25%;
+	
+}
 .newslatter form{
 	width: 380px;
 	max-width: 100%;
