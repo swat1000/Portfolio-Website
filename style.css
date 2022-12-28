@@ -218,7 +218,7 @@ button:hover{
 
 .block:hover .circle::before{
 	background:#f8d9ec;
-	clip-path: circle(800px at center);
+	clip-path: circle(1000px at center);
 }
 
 .block img{
